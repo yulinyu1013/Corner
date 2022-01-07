@@ -1,0 +1,281 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders SingleNotification correctly when notification is not read 1`] = `
+<div
+  className="single-notification"
+  role="presentation"
+>
+  <div
+    className="dot-img"
+  >
+    <img
+      alt="dot"
+      className="dot"
+      src="Ellipse 7.jpg"
+    />
+  </div>
+  <div
+    className="notification-content"
+  >
+    <p>
+      test
+    </p>
+    <div
+      className="notification-button"
+    >
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="submit"
+      >
+        Approve
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="submit"
+      >
+        Reject
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders SingleNotification correctly when notification is read 1`] = `
+<div
+  className="single-notification"
+  role="presentation"
+>
+  <div
+    className="dot-img"
+  >
+    <img
+      alt="dot"
+      className="dot"
+      src="Ellipse 7.jpg"
+    />
+  </div>
+  <div
+    className="notification-content"
+  >
+    <p>
+      test
+    </p>
+    <div
+      className="notification-button"
+    >
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="submit"
+      >
+        Approve
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="submit"
+      >
+        Reject
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders SingleNotification correctly when notification type is invitation 1`] = `
+<div
+  className="single-notification"
+  role="presentation"
+>
+  <div
+    className="dot-img"
+  >
+    <img
+      alt="dot"
+      className="dot"
+      src="Ellipse 7.jpg"
+    />
+  </div>
+  <div
+    className="notification-content"
+  >
+    <p>
+      test
+    </p>
+    <div
+      className="notification-button"
+    >
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="submit"
+      >
+        Approve
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="submit"
+      >
+        Dismiss
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders SingleNotification correctly when notification type is invitation and approved 1`] = `
+<div
+  className="single-notification"
+  role="presentation"
+>
+  <div
+    className="dot-img"
+  >
+    <img
+      alt="dot"
+      className="dot"
+      src="Ellipse 7.jpg"
+    />
+  </div>
+  <div
+    className="notification-content"
+  >
+    <p>
+      test
+    </p>
+    <div
+      className="notification-button"
+    >
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="submit"
+      >
+        Approve
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="submit"
+      >
+        Dismiss
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders SingleNotification correctly when notification type is invitation and rejected 1`] = `
+<div
+  className="single-notification"
+  role="presentation"
+>
+  <div
+    className="dot-img"
+  >
+    <img
+      alt="dot"
+      className="dot"
+      src="Ellipse 7.jpg"
+    />
+  </div>
+  <div
+    className="notification-content"
+  >
+    <p>
+      test
+    </p>
+    <div
+      className="notification-button"
+    >
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="submit"
+      >
+        Approve
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="submit"
+      >
+        Dismiss
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders SingleNotification correctly when notification type is other 1`] = `
+<div
+  className="single-notification"
+  role="presentation"
+>
+  <div
+    className="dot-img"
+  >
+    <img
+      alt="dot"
+      className="dot"
+      src="Ellipse 7.jpg"
+    />
+  </div>
+  <div
+    className="notification-content"
+  >
+    <p>
+      test
+    </p>
+    <div
+      className="notification-button other"
+    >
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="submit"
+      >
+        Dismiss
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders SingleNotification correctly when notification type is other 2`] = `
+<div
+  className="single-notification"
+  role="presentation"
+>
+  <div
+    className="dot-img"
+  >
+    <img
+      alt="dot"
+      className="dot"
+      src="Ellipse 7.jpg"
+    />
+  </div>
+  <div
+    className="notification-content"
+  >
+    <p>
+      test
+    </p>
+    <div
+      className="notification-button other"
+    >
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="submit"
+      >
+        Dismiss
+      </button>
+    </div>
+  </div>
+</div>
+`;

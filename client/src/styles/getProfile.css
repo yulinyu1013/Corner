@@ -1,0 +1,101 @@
+.userProfileContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-family: Montserrat;
+    font-style: normal;
+}
+
+.getUserProfile {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.getUserProfile * {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.getUserAvatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0;
+    padding: 0;
+    align-self: center;
+    margin-bottom: 15px;
+    margin-top: 50px;
+    object-fit: cover;
+}
+
+.getUserName {
+    width: 80%;
+    align-self: center;
+    font-size: x-large;
+}
+
+.getUserBios {
+    width: 80%;
+    height: 60px;
+    align-self: center;
+}
+
+
+.userProfileButtonGroup {
+    width: 80%;
+    align-self: center; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    margin: 10px;
+}
+
+.createGroup, .homeFeed, .explore, .settings {
+    width: 100%;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 8px 50px;
+    font-family: Montserrat;
+    font-style: normal;
+    cursor: pointer;
+}
+.createGroup {
+    background-color: #EBAB5F;
+    border-radius: 24px;
+}
+
+.createGroup *, .homeFeed *, .explore *, .settings *{
+    text-align: left;
+}
+
+
+.userProfileButtonIcon {
+    margin-bottom: 5px;
+    vertical-align: middle;
+}
+
+.getUserProfileLineBreak{
+    border: 1px solid #F4F4F4;
+    width: 90%;
+    align-self: center;
+}
+
+.userLogout {
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 8px;
+    font-family: Montserrat;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.create-group-popup {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    /* grid-template-columns: 25% 50% 25%; */
+    z-index: 2;
+}

@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Navbar correctly when user not loggedin 1`] = `
+<div
+  className="navgation-bar"
+>
+  <div
+    className="logo"
+    onClick={[Function]}
+    role="presentation"
+  >
+    <img
+      alt="logo"
+      className="logo"
+      src="logo.png"
+    />
+  </div>
+</div>
+`;
+
+exports[`renders Navbar correctly when user not loggedin 2`] = `
+<div
+  className="navgation-bar"
+>
+  <div
+    className="logo"
+    onClick={[Function]}
+    role="presentation"
+  >
+    <img
+      alt="logo"
+      className="logo"
+      src="logo.png"
+    />
+  </div>
+  <div
+    className="user-info"
+  >
+    <img
+      alt="notification"
+      className="small-icon"
+      onClick={[Function]}
+      role="presentation"
+      src="notification.png"
+    />
+    <p>
+      (0)
+    </p>
+    <img
+      alt="user-avatar"
+      className="user-pic"
+      src={
+        Object {
+          "user": "user.png",
+        }
+      }
+    />
+    <p
+      className="user-name"
+    >
+      test
+    </p>
+  </div>
+</div>
+`;

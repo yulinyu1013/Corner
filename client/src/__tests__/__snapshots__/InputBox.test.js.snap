@@ -1,0 +1,223 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Inputbox correctly when having text in box 1`] = `
+<div
+  className="create-post-box"
+>
+  <div
+    className="create"
+  >
+    <div
+      className="create-input-box create-input-box--multiLine"
+      style={
+        Object {
+          "overflowY": "visible",
+          "position": "relative",
+        }
+      }
+    >
+      <div
+        className="create-input-box__control"
+        style={
+          Object {
+            "border": "none",
+            "fontFamily": "monospace",
+            "fontSize": 12,
+          }
+        }
+      >
+        <div
+          className="create-input-box__highlighter"
+          style={
+            Object {
+              "border": "1px solid transparent",
+              "boxSizing": "border-box",
+              "color": "transparent",
+              "overflow": "hidden",
+              "padding": 9,
+              "position": "relative",
+              "textAlign": "start",
+              "whiteSpace": "pre-wrap",
+              "width": "100%",
+              "wordWrap": "break-word",
+            }
+          }
+        >
+          <span
+            className="create-input-box__highlighter__substring"
+            style={
+              Object {
+                "visibility": "hidden",
+              }
+            }
+          >
+            test post
+          </span>
+           
+        </div>
+        <textarea
+          className="create-input-box__input"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onCompositionEnd={[Function]}
+          onCompositionStart={[Function]}
+          onKeyDown={[Function]}
+          onScroll={[Function]}
+          onSelect={[Function]}
+          placeholder="Create your post here..."
+          style={
+            Object {
+              "backgroundColor": "transparent",
+              "border": 0,
+              "bottom": 14,
+              "boxSizing": "border-box",
+              "display": "block",
+              "fontFamily": "inherit",
+              "fontSize": "inherit",
+              "height": "100%",
+              "left": 0,
+              "letterSpacing": "inherit",
+              "margin": 0,
+              "maxHeight": 100,
+              "minHeight": 63,
+              "outline": 0,
+              "overflow": "auto",
+              "padding": 9,
+              "position": "absolute",
+              "resize": "none",
+              "top": 0,
+              "width": "100%",
+            }
+          }
+          value="test post"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="post-options-icon"
+  >
+    <div
+      className="upload-file"
+      onClick={[Function]}
+      role="presentation"
+    >
+      Upload Files
+    </div>
+    <button
+      className="create-post-button"
+      disabled={false}
+      onClick={[Function]}
+      type="submit"
+    >
+      Post
+    </button>
+  </div>
+</div>
+`;
+
+exports[`renders Inputbox correctly when no text in box 1`] = `
+<div
+  className="create-post-box"
+>
+  <div
+    className="create"
+  >
+    <div
+      className="create-input-box create-input-box--multiLine"
+      style={
+        Object {
+          "overflowY": "visible",
+          "position": "relative",
+        }
+      }
+    >
+      <div
+        className="create-input-box__control"
+        style={
+          Object {
+            "border": "none",
+            "fontFamily": "monospace",
+            "fontSize": 12,
+          }
+        }
+      >
+        <div
+          className="create-input-box__highlighter"
+          style={
+            Object {
+              "border": "1px solid transparent",
+              "boxSizing": "border-box",
+              "color": "transparent",
+              "overflow": "hidden",
+              "padding": 9,
+              "position": "relative",
+              "textAlign": "start",
+              "whiteSpace": "pre-wrap",
+              "width": "100%",
+              "wordWrap": "break-word",
+            }
+          }
+        >
+           
+        </div>
+        <textarea
+          className="create-input-box__input"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onCompositionEnd={[Function]}
+          onCompositionStart={[Function]}
+          onKeyDown={[Function]}
+          onScroll={[Function]}
+          onSelect={[Function]}
+          placeholder="Create your post here..."
+          style={
+            Object {
+              "backgroundColor": "transparent",
+              "border": 0,
+              "bottom": 14,
+              "boxSizing": "border-box",
+              "display": "block",
+              "fontFamily": "inherit",
+              "fontSize": "inherit",
+              "height": "100%",
+              "left": 0,
+              "letterSpacing": "inherit",
+              "margin": 0,
+              "maxHeight": 100,
+              "minHeight": 63,
+              "outline": 0,
+              "overflow": "auto",
+              "padding": 9,
+              "position": "absolute",
+              "resize": "none",
+              "top": 0,
+              "width": "100%",
+            }
+          }
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="post-options-icon"
+  >
+    <div
+      className="upload-file"
+      onClick={[Function]}
+      role="presentation"
+    >
+      Upload Files
+    </div>
+    <button
+      className="create-post-button"
+      disabled={false}
+      onClick={[Function]}
+      type="submit"
+    >
+      Post
+    </button>
+  </div>
+</div>
+`;

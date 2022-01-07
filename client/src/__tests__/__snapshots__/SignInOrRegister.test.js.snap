@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders SignInOrRegister correctly 1`] = `
+<div
+  className="signInOrRegisterContainer"
+  data-testid="signIn"
+>
+  <div
+    className="signIn_container"
+  >
+    <div
+      className="signIn_welcome"
+    >
+      Welcome
+      <br />
+      Back to
+    </div>
+    <div
+      className="signIn_corner"
+    >
+       Corner. 
+    </div>
+    <div
+      className="signIn_welcomeMsg"
+    >
+      Get relax & get enlightened
+      <br />
+      with book📚, movie🎬, music🎵
+      <br />
+      and people.
+    </div>
+    <div
+      className="signInMsg"
+    >
+      Sign in your account below.
+    </div>
+    <div
+      className="signIn_input"
+    >
+      <input
+        className="signIn_username"
+        name="username"
+        onChange={[Function]}
+        placeholder="Username"
+        type="text"
+        value=""
+      />
+      <input
+        className="signIn_password"
+        name="password"
+        onChange={[Function]}
+        placeholder="Password"
+        type="password"
+        value=""
+      />
+    </div>
+    <div
+      className="signIn_validation"
+      data-testid="test"
+    >
+      
+    </div>
+    <button
+      className="signIn_button"
+      disabled={true}
+      onClick={[Function]}
+      type="submit"
+    >
+       Sign In 
+    </button>
+    <div
+      className="register_redirect_div"
+    >
+      <div
+        className="register_redirect"
+      >
+        Don't an account?  
+        <a
+          className="register_redirect_link"
+          data-testid="to-register"
+          href="/"
+          onClick={[Function]}
+        >
+          Register
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,139 @@
+
+.corner-list-wrapper{
+  height: 1080px;
+  width: 100%;
+}
+
+.list-container{
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  /* flex-flow: column wrap; */
+  width: 100%;
+  height: 85%;
+  overflow-y:auto;
+}
+.list-container .singlecorner {
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+  width: 90%;  
+  display: flex;
+  flex-flow: row;
+  align-items:center;
+  border-bottom: 1px solid  rgba(196, 196, 196, 1);
+}
+
+.list-container .singlecorner .corner {
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+  width: 90%;  
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+}
+
+.list-container .singlecorner .chat-icon {
+  align-items: center;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  height: 30px;
+  width: 30%;  
+}
+
+.corner-header{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 36px;
+  font-weight: bolder;
+  overflow-y:auto;
+  overflow-x:auto;
+}
+
+.corner-info{
+  height: 70px;
+  width: 70px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+}
+
+.corner-name{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.corner-data{
+  font-size: 13px;
+}
+
+.corner-img-container{
+  height: 70px;
+  width: 70px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 30px;
+  margin-left: 8px;
+}
+
+.corner-img{
+  height: 70px;
+  width: 70px;
+  border-radius: 20px;
+  object-fit: fill;
+}
+
+.corner-list-wrapper .sort-search {
+  flex: row;
+  display: flex;
+  justify-content: space-around;
+}
+
+.sort-search .sort-bar{
+  width: 50%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.sort-icon{
+  margin-top: 11px;
+  color: goldenrod;
+  margin-right: 10px;
+  height: 20px;
+}
+
+.sort-search .search-bar {
+  width: 50%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.search-bar .input-field {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  height: 35px;
+  font-size: medium;
+  border-radius: 5px;
+  border: lightgrey 1px solid;
+}
+
+.search-bar .input-field:focus {
+  outline: none !important;
+  border:1px solid grey;
+}
+
+.search-bar .input-field:hover {
+  outline: none !important;
+  border:1px solid lightgrey;
+  box-shadow: 0 0 10px grey;
+}
+
+.search-icon {
+  margin-top: 11px;
+  color: goldenrod;
+  margin-right: 10px;
+}

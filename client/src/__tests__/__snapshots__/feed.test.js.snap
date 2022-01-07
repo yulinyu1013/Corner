@@ -1,0 +1,500 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Feed correctly when user loggedin and admin and has comment 1`] = `
+<div
+  className="feed-content"
+>
+  <div
+    className="user-info"
+  >
+    <div
+      className="left-info"
+    >
+      <img
+        alt="user-pic"
+        className="user-pic"
+        src="logo.png"
+      />
+      <div
+        className="title"
+      >
+        <p
+          className="user-name"
+        >
+          Jack in test_corner
+        </p>
+      </div>
+    </div>
+    <div
+      className="right-info"
+    >
+      <p
+        className="time"
+      >
+        8/16/2021
+      </p>
+      <img
+        alt="option"
+        className="ant-dropdown-trigger option"
+        onClick={[Function]}
+        onMouseDown={[Function]}
+        onTouchStart={[Function]}
+        src="more_vertical.svg"
+      />
+    </div>
+  </div>
+  <div
+    className="post-content"
+  >
+    <p
+      className="text-content"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed doloribus natus, nulla voluptates voluptate vitae amet qui consequuntur repellat repellendus sint! Non voluptas doloremque tempore ex perferendis labore illo totam.
+    </p>
+    <div
+      className="feed-all-image"
+    >
+      <img
+        alt="uploaded-pics"
+        src={
+          Array [
+            "user.png",
+          ]
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="reaction"
+  >
+    <p>
+      ·
+    </p>
+    <p>
+      2 comments
+    </p>
+  </div>
+  <div
+    className="comment-part"
+  >
+    <div
+      className="comment-list"
+    >
+      <div
+        className="comment-content"
+      >
+        <div
+          className="single-comment"
+        >
+          <div
+            className="top-content"
+          >
+            <img
+              alt="commentUser"
+              className="comment-pic"
+              src="logo.png"
+            />
+            <div
+              className="grey-box"
+            >
+              <p>
+                Jhon
+              </p>
+              <p>
+                first test comment
+              </p>
+            </div>
+          </div>
+          <div
+            className="comment-operation"
+          >
+            <p>
+              8/16/2021
+            </p>
+          </div>
+        </div>
+        <div
+          className="single-comment"
+        >
+          <div
+            className="top-content"
+          >
+            <img
+              alt="commentUser"
+              className="comment-pic"
+              src="logo.png"
+            />
+            <div
+              className="grey-box"
+            >
+              <p>
+                Jhon
+              </p>
+              <p>
+                second test comment
+              </p>
+            </div>
+          </div>
+          <div
+            className="comment-operation"
+          >
+            <p>
+              8/16/2021
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders Feed correctly when user loggedin and is admin 1`] = `
+<div
+  className="feed-content"
+>
+  <div
+    className="user-info"
+  >
+    <div
+      className="left-info"
+    >
+      <img
+        alt="user-pic"
+        className="user-pic"
+        src="logo.png"
+      />
+      <div
+        className="title"
+      >
+        <p
+          className="user-name"
+        >
+          Jack in test_corner
+        </p>
+      </div>
+    </div>
+    <div
+      className="right-info"
+    >
+      <p
+        className="time"
+      >
+        8/16/2021
+      </p>
+      <img
+        alt="option"
+        className="ant-dropdown-trigger option"
+        onClick={[Function]}
+        onMouseDown={[Function]}
+        onTouchStart={[Function]}
+        src="more_vertical.svg"
+      />
+    </div>
+  </div>
+  <div
+    className="post-content"
+  >
+    <p
+      className="text-content"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed doloribus natus, nulla voluptates voluptate vitae amet qui consequuntur repellat repellendus sint! Non voluptas doloremque tempore ex perferendis labore illo totam.
+    </p>
+    <div
+      className="feed-all-image"
+    >
+      <img
+        alt="uploaded-pics"
+        src={
+          Array [
+            "user.png",
+          ]
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="reaction"
+  >
+    <p>
+      ·
+    </p>
+    <p>
+      0 comments
+    </p>
+  </div>
+  <div
+    className="comment-part"
+  >
+    <div
+      className="comment-list"
+    >
+      <div
+        className="comment-content"
+      />
+      <div
+        className="comment-box"
+      >
+        <img
+          alt="user"
+          className="user"
+          src="user.png"
+        />
+        <div
+          className="input input--singleLine"
+          style={
+            Object {
+              "overflowY": "visible",
+              "position": "relative",
+            }
+          }
+        >
+          <div
+            className="input__control"
+            style={
+              Object {
+                "border": "none",
+                "display": "inline-block",
+                "fontSize": 10,
+              }
+            }
+          >
+            <div
+              className="input__highlighter input__highlighter--singleLine"
+              style={
+                Object {
+                  "border": "1px solid transparent",
+                  "boxSizing": "border-box",
+                  "color": "transparent",
+                  "overflow": "hidden",
+                  "position": "relative",
+                  "textAlign": "start",
+                  "whiteSpace": "pre",
+                  "width": "100%",
+                  "wordWrap": null,
+                }
+              }
+            >
+               
+            </div>
+            <input
+              className="input__input"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onCompositionEnd={[Function]}
+              onCompositionStart={[Function]}
+              onKeyDown={[Function]}
+              onScroll={[Function]}
+              onSelect={[Function]}
+              placeholder="Write a comment..."
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "border": "1px solid #dfdfdf",
+                  "borderRadius": 20,
+                  "boxSizing": "border-box",
+                  "display": "block",
+                  "fontFamily": "inherit",
+                  "fontSize": "inherit",
+                  "left": 0,
+                  "letterSpacing": "inherit",
+                  "margin": 0,
+                  "outline": "none",
+                  "padding": 10,
+                  "position": "absolute",
+                  "top": 0,
+                  "width": "100%",
+                }
+              }
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+        <button
+          onClick={[Function]}
+          type="submit"
+        >
+          POST
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders Feed correctly when user not loggedin and is admin 1`] = `
+<div
+  className="feed-content"
+>
+  <div
+    className="user-info"
+  >
+    <div
+      className="left-info"
+    >
+      <img
+        alt="user-pic"
+        className="user-pic"
+        src="logo.png"
+      />
+      <div
+        className="title"
+      >
+        <p
+          className="user-name"
+        >
+          Jack in test_corner
+        </p>
+      </div>
+    </div>
+    <div
+      className="right-info"
+    >
+      <p
+        className="time"
+      >
+        8/16/2021
+      </p>
+      <img
+        alt="option"
+        className="ant-dropdown-trigger option"
+        onClick={[Function]}
+        onMouseDown={[Function]}
+        onTouchStart={[Function]}
+        src="more_vertical.svg"
+      />
+    </div>
+  </div>
+  <div
+    className="post-content"
+  >
+    <p
+      className="text-content"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed doloribus natus, nulla voluptates voluptate vitae amet qui consequuntur repellat repellendus sint! Non voluptas doloremque tempore ex perferendis labore illo totam.
+    </p>
+    <div
+      className="feed-all-image"
+    >
+      <img
+        alt="uploaded-pics"
+        src={
+          Array [
+            "user.png",
+          ]
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="reaction"
+  >
+    <p>
+      ·
+    </p>
+    <p>
+      0 comments
+    </p>
+  </div>
+  <div
+    className="comment-part"
+  >
+    <div
+      className="comment-list"
+    >
+      <div
+        className="comment-content"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders Feed correctly when user not loggedin and is not admin 1`] = `
+<div
+  className="feed-content"
+>
+  <div
+    className="user-info"
+  >
+    <div
+      className="left-info"
+    >
+      <img
+        alt="user-pic"
+        className="user-pic"
+        src="logo.png"
+      />
+      <div
+        className="title"
+      >
+        <p
+          className="user-name"
+        >
+          Jack in test_corner
+        </p>
+      </div>
+    </div>
+    <div
+      className="right-info"
+    >
+      <p
+        className="time"
+      >
+        8/16/2021
+      </p>
+      <img
+        alt="option"
+        className="ant-dropdown-trigger option"
+        onClick={[Function]}
+        onMouseDown={[Function]}
+        onTouchStart={[Function]}
+        src="more_vertical.svg"
+      />
+    </div>
+  </div>
+  <div
+    className="post-content"
+  >
+    <p
+      className="text-content"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed doloribus natus, nulla voluptates voluptate vitae amet qui consequuntur repellat repellendus sint! Non voluptas doloremque tempore ex perferendis labore illo totam.
+    </p>
+    <div
+      className="feed-all-image"
+    >
+      <img
+        alt="uploaded-pics"
+        src={
+          Array [
+            "user.png",
+          ]
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="reaction"
+  >
+    <p>
+      ·
+    </p>
+    <p>
+      0 comments
+    </p>
+  </div>
+  <div
+    className="comment-part"
+  >
+    <div
+      className="comment-list"
+    >
+      <div
+        className="comment-content"
+      />
+    </div>
+  </div>
+</div>
+`;

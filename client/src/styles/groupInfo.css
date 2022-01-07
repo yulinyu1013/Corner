@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+.corner-info-container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Montserrat;
+  font-style: normal;
+}
+
+.corner-image{
+  width: 100%;
+  height: 250px;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.corner-image img{
+  width: 60%;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  object-fit: cover;
+}
+
+.corner-description{
+  width: 80%;
+  height: 150px;
+  text-align: left;
+  background: rgba(229, 204, 184, 0.3);
+  padding:15px;
+  border-radius: 10px;
+  margin-top: 100px;
+}
+
+.corner-tags{
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: auto;
+}
+
+.corner-tag-item{
+  width: 40%;
+  background-color: #EBAB5F;
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 24px;
+}
+
+.corner-setting-options{
+  width: 100%;
+  height: 150px;
+  margin-top: 10px;
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.corner-setting-options .item{
+  width: 80%;
+  background-color: #FFC37B;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.corner-setting-options .leave-group{
+  background-color: #9D9B9B;
+}
+
+.inputbox-invite{
+  width: 80%;
+  margin-left: 10%;
+  border: #dfdfdf 1px solid;
+  padding: 5px;
+}
+
+.inputbox-invite:focus{
+  outline: none;
+}
+
+.ant-btn-primary {
+  background-color: #EBAB5F;
+  border-color: #EBAB5F;
+}
+
+.ant-btn-primary:hover {
+  background-color: #FFC37B;
+  border-color: #FFC37B;
+}
+
+.ant-btn-ghost:hover {
+  background-color: white;
+  border-color: #EBAB5F;
+  color: #EBAB5F
+}
+
+.corner-name-type * {
+  vertical-align: middle;
+}
+.corner-type {
+  width: max-content;
+  background-color: #d7e9a1;
+  color: rgb(74, 74, 74);
+  padding: 3px 10px;
+  font-size: x-small;
+  border-radius: 24px;
+}
+
+
+
+
+/* update corner css */
+.update-corner-info-container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content:baseline;
+  align-items: center;
+  font-family: Montserrat;
+  font-style: normal;
+}
+
+
+
+.update-corner-image {
+  width: 60%;
+  border-radius: 50%;
+  margin: 15px;
+  object-fit: cover;
+}
+
+.cornerUpdateInputGroup input {
+  width: 100%;
+  background: #f5eee9;
+  /* box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25); */
+  border-radius: 25px;
+  border: none;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+  align-self: center;
+  font-family: Montserrat;
+  font-size: small;
+  color: darkgray;
+}
+
+.updateCornerProfileLineBreak{
+  border: 1px solid #F4F4F4;
+  width: 90%;
+  align-self: center;
+  margin: 20px;
+}
+.submitUpdateCornerButtonGroup {
+  width: 90%;
+  flex-direction: row;
+}
+.submitUpdateCornerButtonGroup * {
+  border-radius: 24px;
+  padding: 8px 30px;
+  margin-bottom: 20px;
+  border: none;
+  font-family: Montserrat;
+  color:rgb(92, 92, 92);
+}
+
+.updateCornerSubmit {
+  background-color: #FFC177;
+  color:rgb(70, 70, 70);
+  margin-right: 40px;
+}
+
+/* update corner input */
+.cornerUpdateInputGroup {
+  width: 80%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  margin: 20px;
+}
+.cornerUpdateInputGroup input {
+  width: 100%;
+  background: #f5eee9;
+  /* box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25); */
+  border-radius: 25px;
+  border: none;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+  align-self: center;
+  font-family: Montserrat;
+  font-size: small;
+}
+
+
+.cornerUpdateType {
+  display: flex;
+  text-align: left;
+  font-size: small;
+  color: rgb(104, 104, 104);
+  vertical-align: middle;
+  width: 90%;
+}
+
+.updateCornerInputLabel {
+  text-align:left;
+  font-size: small;
+  color: rgb(104, 104, 104);
+  vertical-align: middle;
+  margin: 5px 0;
+}
+
+#public, #private{
+  margin-right: 0;
+}
+
+.updateCornerDescription{
+  border-radius: 10px;
+  margin: 0 10px;
+  height: 100px;
+  border: none;
+  background: #f5eee9;
+  padding: 10px 10px;
+  color:rgb(70, 70, 70);
+}
+
+.uploadCornerAvatar{
+  width: fit-content;
+  padding: 8px 20px;
+  margin-top: 10px;
+  background: #FFC177;
+  border-radius: 24px;
+  border: none;
+  font-family: Montserrat;
+  font-size: small;
+  color: rgb(75, 75, 75);
+
+}
+
+.uploadCornerAvatar:hover{
+  background: #ffd7a6;
+  color: rgb(75, 75, 75);
+}
+
+.update-corner-validation {
+  color: red;
+  text-align: left;
+}

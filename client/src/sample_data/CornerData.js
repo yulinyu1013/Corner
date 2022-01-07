@@ -1,0 +1,110 @@
+import jm from './corner_imgs/jm.png';
+import fo from './corner_imgs/fo.png';
+import jw from './corner_imgs/jw.png';
+import jz from './corner_imgs/jazz.png';
+import os from './corner_imgs/soul.png';
+
+export const corners = [
+  {
+    id: 1,
+    name: 'JMFansCorner',
+    image: jm,
+    msgs: 6666,
+    posts: 11,
+    mems: 100,
+    tag: ['music', 'fans', 'pop'],
+  },
+  {
+    id: 2,
+    name: 'FrankOceanFansClub',
+    image: fo,
+    msgs: 0,
+    posts: 130,
+    mems: 1200,
+    tag: ['music', 'fans', 'r&b'],
+  },
+  {
+    id: 3,
+    name: 'LoveJohnWoo',
+    image: jw,
+    msgs: 5,
+    posts: 2,
+    mems: 1000,
+    tag: ['movie', 'JohnWoo'],
+  },
+  {
+    id: 4,
+    name: 'JazzClub',
+    image: jz,
+    msgs: 10,
+    posts: 11,
+    mems: 100,
+    tag: ['music', 'jazz'],
+  },
+  {
+    id: 5,
+    name: 'OldSoul',
+    image: os,
+    msgs: 23,
+    posts: 210,
+    mems: 1030,
+    tag: ['music', 'soul'],
+  },
+  {
+    id: 6,
+    name: 'JMFansCorner',
+    image: jm,
+    msgs: 6666,
+    posts: 11,
+    mems: 100,
+    tag: ['music', 'fans', 'pop'],
+  },
+  {
+    id: 7,
+    name: 'FrankOceanFansClub',
+    image: fo,
+    msgs: 0,
+    posts: 130,
+    mems: 1200,
+    tag: ['music', 'fans', 'r&b'],
+  },
+  {
+    id: 8,
+    name: 'LoveJohnWoo',
+    image: jw,
+    msgs: 5,
+    posts: 2,
+    mems: 1000,
+    tag: ['movie', 'JohnWoo'],
+  },
+  {
+    id: 9,
+    name: 'JazzClub',
+    image: jz,
+    msgs: 10,
+    posts: 11,
+    mems: 100,
+    tag: ['music', 'jazz'],
+  },
+  {
+    id: 10,
+    name: 'OldSoul',
+    image: os,
+    msgs: 23,
+    posts: 210,
+    mems: 1030,
+    tag: ['music', 'soul'],
+  },
+  {
+    id: 11,
+    name: 'JMFansCorner',
+    image: jm,
+    msgs: 6666,
+    posts: 11,
+    mems: 100,
+    tag: ['music', 'fans', 'pop'],
+  },
+];
+export default {
+  corners,
+};

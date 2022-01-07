@@ -1,0 +1,11 @@
+{
+  "short_name": "cis557-final-proj",
+  "name": "Create React App Sample",
+  "icons": [
+
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

@@ -1,0 +1,248 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Profile correctly when user has no avatar 1`] = `
+<div
+  className="userProfileContainer"
+  data-testid="userProfile"
+>
+  <div
+    className="getUserProfile"
+  >
+    <img
+      alt=""
+      className="getUserAvatar"
+      src="logo.png"
+    />
+    <div
+      className="getUserName"
+    />
+    <div
+      className="getUserBios"
+    />
+    <div
+      className="userProfileButtonGroup"
+    >
+      <button
+        className="createGroup"
+        onClick={[Function]}
+        type="submit"
+      >
+        <img
+          alt=""
+          className="userProfileButtonIcon"
+          src="create_group.svg"
+        />
+          Create Group
+      </button>
+      <button
+        className="homeFeed"
+        onClick={[Function]}
+        type="submit"
+      >
+        <img
+          alt=""
+          className="userProfileButtonIcon"
+          src="homefeed.svg"
+        />
+          Home Feed
+      </button>
+      <button
+        className="explore"
+        onClick={[Function]}
+        type="submit"
+      >
+        <img
+          alt=""
+          className="userProfileButtonIcon"
+          src="explore.svg"
+        />
+          Explore
+      </button>
+      <button
+        className="settings"
+        data-testid="userSetting"
+        onClick={[Function]}
+        type="button"
+      >
+        <img
+          alt=""
+          className="userProfileButtonIcon"
+          src="setting.svg"
+        />
+          Setting
+      </button>
+    </div>
+    <hr
+      className="getUserProfileLineBreak"
+    />
+    <button
+      className="userLogout"
+      onClick={[Function]}
+      type="submit"
+    >
+      <img
+        alt=""
+        className="userProfileButtonIcon"
+        src="logout.svg"
+      />
+        Log out
+    </button>
+  </div>
+</div>
+`;
+
+exports[`renders Profile correctly when user is in chat 1`] = `
+<div
+  className="userProfileContainer"
+  data-testid="userProfile"
+>
+  <div
+    className="getUserProfile"
+  >
+    <img
+      alt=""
+      className="getUserAvatar"
+      src="logo.png"
+    />
+    <div
+      className="getUserName"
+    />
+    <div
+      className="getUserBios"
+    />
+    <div
+      className="userProfileButtonGroup"
+    >
+      
+      <button
+        className="homeFeed"
+        onClick={[Function]}
+        type="submit"
+      >
+        <img
+          alt=""
+          className="userProfileButtonIcon"
+          src="homefeed.svg"
+        />
+          Home Feed
+      </button>
+      <button
+        className="explore"
+        onClick={[Function]}
+        type="submit"
+      >
+        <img
+          alt=""
+          className="userProfileButtonIcon"
+          src="explore.svg"
+        />
+          Explore
+      </button>
+      
+    </div>
+    <hr
+      className="getUserProfileLineBreak"
+    />
+    
+  </div>
+</div>
+`;
+
+exports[`renders Profile correctly when user is in not chat 1`] = `
+<div
+  className="userProfileContainer"
+  data-testid="userProfile"
+>
+  <div
+    className="getUserProfile"
+  >
+    <img
+      alt=""
+      className="getUserAvatar"
+      src={
+        Object {
+          "user": "user.png",
+        }
+      }
+    />
+    <div
+      className="getUserName"
+    >
+      dummy
+    </div>
+    <div
+      className="getUserBios"
+    >
+      
+    </div>
+    <div
+      className="userProfileButtonGroup"
+    >
+      <button
+        className="createGroup"
+        onClick={[Function]}
+        type="submit"
+      >
+        <img
+          alt=""
+          className="userProfileButtonIcon"
+          src="create_group.svg"
+        />
+          Create Group
+      </button>
+      <button
+        className="homeFeed"
+        onClick={[Function]}
+        type="submit"
+      >
+        <img
+          alt=""
+          className="userProfileButtonIcon"
+          src="homefeed.svg"
+        />
+          Home Feed
+      </button>
+      <button
+        className="explore"
+        onClick={[Function]}
+        type="submit"
+      >
+        <img
+          alt=""
+          className="userProfileButtonIcon"
+          src="explore.svg"
+        />
+          Explore
+      </button>
+      <button
+        className="settings"
+        data-testid="userSetting"
+        onClick={[Function]}
+        type="button"
+      >
+        <img
+          alt=""
+          className="userProfileButtonIcon"
+          src="setting.svg"
+        />
+          Setting
+      </button>
+    </div>
+    <hr
+      className="getUserProfileLineBreak"
+    />
+    <button
+      className="userLogout"
+      onClick={[Function]}
+      type="submit"
+    >
+      <img
+        alt=""
+        className="userProfileButtonIcon"
+        src="logout.svg"
+      />
+        Log out
+    </button>
+  </div>
+</div>
+`;

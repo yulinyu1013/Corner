@@ -1,0 +1,57 @@
+.comment-list{
+    width: 100%;
+    height: 100%;
+}
+
+.comment-content{
+    width: 100%;
+    height: 100%;
+}
+
+.comment-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+    height: 45px;
+}
+
+.user{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+.comment-box .input{
+    width: 80%;
+    border-radius: 30px;
+    font-size: 15px;
+    color: #505050;
+    padding-left: 15px;
+    height: 80%;
+}
+
+.comment-box:focus{
+    outline: none;
+}
+
+.comment-box input:focus{
+    outline: none;
+}
+
+.comment-box button{
+    background: none;
+    border:none;
+    font-size: 15px;
+    line-height: 15px;
+    color: #505050;
+    cursor: pointer;
+    margin-left: 3px;
+}
+
+/* .comment-box .cancel-edit-button{
+    
+} */

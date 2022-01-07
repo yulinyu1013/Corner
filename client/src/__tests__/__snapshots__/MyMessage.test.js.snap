@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders TheirMessage correctly when sending only text 1`] = `
+<div
+  className="message"
+  style={
+    Object {
+      "backgroundColor": "goldenrod",
+      "color": "white",
+      "float": "right",
+      "marginRight": "18px",
+    }
+  }
+>
+  test
+</div>
+`;
+
+exports[`renders TheirMessage correctly when sending only text 2`] = `
+<div
+  className="message"
+  style={
+    Object {
+      "backgroundColor": "goldenrod",
+      "color": "white",
+      "float": "right",
+      "marginRight": "18px",
+    }
+  }
+>
+  
+</div>
+`;

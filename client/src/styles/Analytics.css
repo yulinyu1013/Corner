@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+.analytics-container {
+    width: 100%;
+    height: 100%;
+    font-family: Montserrat;
+    font-style: normal;
+}
+.analytics-main {
+  width: 100%;
+  height: 90%;
+  display: grid;
+  grid-template-rows: 15% 25% 55%;
+}
+
+.analytics-main * {
+  margin-bottom: 30px;
+  width: 70%;
+  justify-self: center;
+  border-radius: 10px;
+}
+
+.analytics-group-info {
+  display: flex;
+  background: rgba(251, 229, 212, 0.3);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.analytics-group-info * {
+  vertical-align: middle;
+  margin: 0;
+  height: fit-content;
+  width: fit-content;
+  align-self: center;
+}
+
+.analytics-avatar {
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+  align-self: center;
+  margin: 15px 0;
+  margin-left: 150px;
+}
+
+.analytics-corner-name{
+  margin: 5px 20px;
+  font-size: large;
+}
+
+.analytics-corner-description{
+  margin: 0 20px;
+}
+
+.analytics-overview {
+  display: flex;
+  flex-direction: column;
+}
+
+.overview-title, .details-title {
+  height: max-content;
+  width: 100%;
+  margin: 0;
+  font-size: x-large;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.overview-content, .details-content{
+  height: 90%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0;
+  justify-content: space-between;
+}
+
+.overview-content * {
+  width: 31%;
+  height: 80%;
+  background: rgba(251, 229, 212, 0.3);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.overview-member *, .overview-posts *, .overview-engagements *{
+  background: none;
+  box-shadow: none;
+  height: fit-content;
+  width: 100%;
+  text-align: center
+}
+.member-title, .post-title, .engagement-title {
+  font-size: medium;
+}
+
+.member-stats, .post-stats, .engagement-stats {
+  font-size: xx-large;
+  height: 50%;
+  line-height: 200%;
+  margin: 15px 0;
+  color: #EBAB5F;
+  text-decoration: underline wavy;
+  text-underline-offset: 2px;
+}
+
+.member-stats:hover, .post-stats:hover, .engagement-stats:hover {
+  font-size: xxx-large;
+}
+
+.details-posts, .details-member, .details-engagements {
+  width: 31%;
+  height: 90%;
+  background: rgba(251, 229, 212, 0.3);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.details-engagements-title, .details-posts-title, .details-member-title{
+  width: 100%;
+  height: max-content;
+  font-size: large;
+  margin: 0;
+  margin-top: 20px;
+}
+.details-engagements-chart, .details-posts-chart, .details-member-chart{
+  height: 90%;
+  width: 100%;
+  margin: 0;
+}
+
+.details-engagements-chart *, .details-posts-chart *, .details-member-chart *{
+  height: 80%;
+  width: 90%;
+  margin: 5px 5px;
+}
+
+
+.g2-tooltip, .g2-tooltip-list, .g2-tooltip-list-item{
+  height: fit-content;
+  width: fit-content;
+}
+
+.g2-tooltip-name, .g2-tooltip-value, .g2-tooltip-title {
+  height: fit-content;
+  width: fit-content;
+  margin-left: 2px;
+}
+.g2-tooltip-list-item * {
+  vertical-align: middle;
+  margin-left: 2px;
+  display: inline;
+}

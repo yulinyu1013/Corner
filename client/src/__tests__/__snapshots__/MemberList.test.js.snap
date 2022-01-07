@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders MemberList correctly when user loggedin and currentUser not empty 1`] = `
+<div
+  className="member-list-outer"
+/>
+`;
+
+exports[`renders MemberList correctly when user not and currentUser is empty 1`] = `
+<div
+  className="member-list-outer"
+/>
+`;

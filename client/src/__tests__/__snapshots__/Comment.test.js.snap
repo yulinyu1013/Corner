@@ -1,0 +1,553 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Comment correctly when no avatar 1`] = `
+<div
+  className="comment-list"
+>
+  <div
+    className="comment-content"
+  >
+    <div
+      className="single-comment"
+    >
+      <div
+        className="top-content"
+      >
+        <img
+          alt="commentUser"
+          className="comment-pic"
+          src="logo.png"
+        />
+        <div
+          className="grey-box"
+        >
+          <p>
+            Jhon
+          </p>
+          <p>
+            first test comment
+          </p>
+        </div>
+      </div>
+      <div
+        className="comment-operation"
+      >
+        <p>
+          8/16/2021
+        </p>
+      </div>
+    </div>
+    <div
+      className="single-comment"
+    >
+      <div
+        className="top-content"
+      >
+        <img
+          alt="commentUser"
+          className="comment-pic"
+          src="logo.png"
+        />
+        <div
+          className="grey-box"
+        >
+          <p>
+            Jhon
+          </p>
+          <p>
+            second test comment
+          </p>
+        </div>
+      </div>
+      <div
+        className="comment-operation"
+      >
+        <p>
+          8/16/2021
+        </p>
+      </div>
+    </div>
+  </div>
+  <div
+    className="comment-box"
+  >
+    <img
+      alt="user"
+      className="user"
+      src="logo.png"
+    />
+    <div
+      className="input input--singleLine"
+      style={
+        Object {
+          "overflowY": "visible",
+          "position": "relative",
+        }
+      }
+    >
+      <div
+        className="input__control"
+        style={
+          Object {
+            "border": "none",
+            "display": "inline-block",
+            "fontSize": 10,
+          }
+        }
+      >
+        <div
+          className="input__highlighter input__highlighter--singleLine"
+          style={
+            Object {
+              "border": "1px solid transparent",
+              "boxSizing": "border-box",
+              "color": "transparent",
+              "overflow": "hidden",
+              "position": "relative",
+              "textAlign": "start",
+              "whiteSpace": "pre",
+              "width": "100%",
+              "wordWrap": null,
+            }
+          }
+        >
+           
+        </div>
+        <input
+          className="input__input"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onCompositionEnd={[Function]}
+          onCompositionStart={[Function]}
+          onKeyDown={[Function]}
+          onScroll={[Function]}
+          onSelect={[Function]}
+          placeholder="Write a comment..."
+          style={
+            Object {
+              "backgroundColor": "transparent",
+              "border": "1px solid #dfdfdf",
+              "borderRadius": 20,
+              "boxSizing": "border-box",
+              "display": "block",
+              "fontFamily": "inherit",
+              "fontSize": "inherit",
+              "left": 0,
+              "letterSpacing": "inherit",
+              "margin": 0,
+              "outline": "none",
+              "padding": 10,
+              "position": "absolute",
+              "top": 0,
+              "width": "100%",
+            }
+          }
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <button
+      onClick={[Function]}
+      type="submit"
+    >
+      POST
+    </button>
+  </div>
+</div>
+`;
+
+exports[`renders Comment correctly when no comment 1`] = `
+<div
+  className="comment-list"
+>
+  <div
+    className="comment-content"
+  />
+  <div
+    className="comment-box"
+  >
+    <img
+      alt="user"
+      className="user"
+      src="user.png"
+    />
+    <div
+      className="input input--singleLine"
+      style={
+        Object {
+          "overflowY": "visible",
+          "position": "relative",
+        }
+      }
+    >
+      <div
+        className="input__control"
+        style={
+          Object {
+            "border": "none",
+            "display": "inline-block",
+            "fontSize": 10,
+          }
+        }
+      >
+        <div
+          className="input__highlighter input__highlighter--singleLine"
+          style={
+            Object {
+              "border": "1px solid transparent",
+              "boxSizing": "border-box",
+              "color": "transparent",
+              "overflow": "hidden",
+              "position": "relative",
+              "textAlign": "start",
+              "whiteSpace": "pre",
+              "width": "100%",
+              "wordWrap": null,
+            }
+          }
+        >
+           
+        </div>
+        <input
+          className="input__input"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onCompositionEnd={[Function]}
+          onCompositionStart={[Function]}
+          onKeyDown={[Function]}
+          onScroll={[Function]}
+          onSelect={[Function]}
+          placeholder="Write a comment..."
+          style={
+            Object {
+              "backgroundColor": "transparent",
+              "border": "1px solid #dfdfdf",
+              "borderRadius": 20,
+              "boxSizing": "border-box",
+              "display": "block",
+              "fontFamily": "inherit",
+              "fontSize": "inherit",
+              "left": 0,
+              "letterSpacing": "inherit",
+              "margin": 0,
+              "outline": "none",
+              "padding": 10,
+              "position": "absolute",
+              "top": 0,
+              "width": "100%",
+            }
+          }
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <button
+      onClick={[Function]}
+      type="submit"
+    >
+      POST
+    </button>
+  </div>
+</div>
+`;
+
+exports[`renders Comment correctly when user is not creator 1`] = `
+<div
+  className="comment-list"
+>
+  <div
+    className="comment-content"
+  >
+    <div
+      className="single-comment"
+    >
+      <div
+        className="top-content"
+      >
+        <img
+          alt="commentUser"
+          className="comment-pic"
+          src="logo.png"
+        />
+        <div
+          className="grey-box"
+        >
+          <p>
+            Jhon
+          </p>
+          <p>
+            first test comment
+          </p>
+        </div>
+      </div>
+      <div
+        className="comment-operation"
+      >
+        <p>
+          8/16/2021
+        </p>
+      </div>
+    </div>
+    <div
+      className="single-comment"
+    >
+      <div
+        className="top-content"
+      >
+        <img
+          alt="commentUser"
+          className="comment-pic"
+          src="logo.png"
+        />
+        <div
+          className="grey-box"
+        >
+          <p>
+            Jhon
+          </p>
+          <p>
+            second test comment
+          </p>
+        </div>
+      </div>
+      <div
+        className="comment-operation"
+      >
+        <p>
+          8/16/2021
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders Comment correctly when user loggedin and is admin 1`] = `
+<div
+  className="comment-list"
+>
+  <div
+    className="comment-content"
+  >
+    <div
+      className="single-comment"
+    >
+      <div
+        className="top-content"
+      >
+        <img
+          alt="commentUser"
+          className="comment-pic"
+          src="logo.png"
+        />
+        <div
+          className="grey-box"
+        >
+          <p>
+            Jhon
+          </p>
+          <p>
+            first test comment
+          </p>
+        </div>
+      </div>
+      <div
+        className="comment-operation"
+      >
+        <p>
+          8/16/2021
+        </p>
+      </div>
+    </div>
+    <div
+      className="single-comment"
+    >
+      <div
+        className="top-content"
+      >
+        <img
+          alt="commentUser"
+          className="comment-pic"
+          src="logo.png"
+        />
+        <div
+          className="grey-box"
+        >
+          <p>
+            Jhon
+          </p>
+          <p>
+            second test comment
+          </p>
+        </div>
+      </div>
+      <div
+        className="comment-operation"
+      >
+        <p>
+          8/16/2021
+        </p>
+      </div>
+    </div>
+  </div>
+  <div
+    className="comment-box"
+  >
+    <img
+      alt="user"
+      className="user"
+      src="user.png"
+    />
+    <div
+      className="input input--singleLine"
+      style={
+        Object {
+          "overflowY": "visible",
+          "position": "relative",
+        }
+      }
+    >
+      <div
+        className="input__control"
+        style={
+          Object {
+            "border": "none",
+            "display": "inline-block",
+            "fontSize": 10,
+          }
+        }
+      >
+        <div
+          className="input__highlighter input__highlighter--singleLine"
+          style={
+            Object {
+              "border": "1px solid transparent",
+              "boxSizing": "border-box",
+              "color": "transparent",
+              "overflow": "hidden",
+              "position": "relative",
+              "textAlign": "start",
+              "whiteSpace": "pre",
+              "width": "100%",
+              "wordWrap": null,
+            }
+          }
+        >
+           
+        </div>
+        <input
+          className="input__input"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onCompositionEnd={[Function]}
+          onCompositionStart={[Function]}
+          onKeyDown={[Function]}
+          onScroll={[Function]}
+          onSelect={[Function]}
+          placeholder="Write a comment..."
+          style={
+            Object {
+              "backgroundColor": "transparent",
+              "border": "1px solid #dfdfdf",
+              "borderRadius": 20,
+              "boxSizing": "border-box",
+              "display": "block",
+              "fontFamily": "inherit",
+              "fontSize": "inherit",
+              "left": 0,
+              "letterSpacing": "inherit",
+              "margin": 0,
+              "outline": "none",
+              "padding": 10,
+              "position": "absolute",
+              "top": 0,
+              "width": "100%",
+            }
+          }
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <button
+      onClick={[Function]}
+      type="submit"
+    >
+      POST
+    </button>
+  </div>
+</div>
+`;
+
+exports[`renders Comment correctly when user not loggedin 1`] = `
+<div
+  className="comment-list"
+>
+  <div
+    className="comment-content"
+  >
+    <div
+      className="single-comment"
+    >
+      <div
+        className="top-content"
+      >
+        <img
+          alt="commentUser"
+          className="comment-pic"
+          src="logo.png"
+        />
+        <div
+          className="grey-box"
+        >
+          <p>
+            Jhon
+          </p>
+          <p>
+            first test comment
+          </p>
+        </div>
+      </div>
+      <div
+        className="comment-operation"
+      >
+        <p>
+          8/16/2021
+        </p>
+      </div>
+    </div>
+    <div
+      className="single-comment"
+    >
+      <div
+        className="top-content"
+      >
+        <img
+          alt="commentUser"
+          className="comment-pic"
+          src="logo.png"
+        />
+        <div
+          className="grey-box"
+        >
+          <p>
+            Jhon
+          </p>
+          <p>
+            second test comment
+          </p>
+        </div>
+      </div>
+      <div
+        className="comment-operation"
+      >
+        <p>
+          8/16/2021
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

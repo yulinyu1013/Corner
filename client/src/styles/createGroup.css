@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+.create-group-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.create-group-modal-container {
+    height: 50%;
+    width: 35%;
+    background: rgba(252, 251, 250);
+    padding: 50px;
+    z-index: 1000;
+    border-radius: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow-y: auto;
+}
+.create-group-title-break {
+    border: 1px solid #e6e2e2d2;
+    margin-bottom: 20px;
+}
+
+.create-corner-title {
+    margin-top: 20px;
+    color: #cb8f47;
+}
+

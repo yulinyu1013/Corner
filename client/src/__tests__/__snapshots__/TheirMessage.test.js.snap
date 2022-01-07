@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders TheirMessage correctly when sending only text and same name 1`] = `
+<div
+  className="message-row"
+>
+  <div
+    className="message-content"
+  >
+    <div
+      className="message"
+      style={
+        Object {
+          "backgroundColor": "goldenrod",
+          "float": "left",
+          "marginLeft": "48px",
+        }
+      }
+    >
+      test
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders TheirMessage correctly when sending with no text 1`] = `
+<div
+  className="message-row"
+>
+  <div
+    className="message-sender-title"
+  >
+    <div
+      className="message-sender-name"
+    >
+      <p>
+        test2
+      </p>
+    </div>
+    <div
+      className="message-avatar"
+      style={
+        Object {
+          "backgroundImage": "url([object Object])",
+        }
+      }
+    />
+  </div>
+  <div
+    className="message-content"
+  >
+    <div
+      className="message"
+      style={
+        Object {
+          "backgroundColor": "goldenrod",
+          "float": "left",
+          "marginLeft": "4px",
+        }
+      }
+    >
+      
+    </div>
+  </div>
+</div>
+`;
